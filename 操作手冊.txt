@@ -1,0 +1,14 @@
+=== 第一步：把檔案「複製」到 GitHub 資料夾===
+你目前在 C:\xampp\htdocs 寫 Code。但你的 GitHub 盒子在桌面（或你當初 Clone 的位置）。
+
+把 htdocs 裡的 東西 複製到桌面資料夾。
+
+=== 第二步：切換 VS Code 視窗===
+在 VS Code 點選 File > Open Folder。
+選擇桌面那個資料夾。
+
+=== 第三步：輸入「上傳三部曲」===
+在 VS Code 下方的終端機輸入這三行，每輸入一行就按一次 Enter：
+git add .
+git commit -m "隨便寫啥都行"
+git push
